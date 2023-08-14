@@ -2,12 +2,23 @@
 <html lang="en">
 <head>
 
-    <title>Random Quote Generator</title>
+    <title>RandomWeb_QuoteGenerator</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="RandomWeb_BMICalculator.html">BMI_Calculator</a></li>
+                <li><a href="RandomWeb_CountdownTimer.html">Countdown_Timer</a></li>
+            </ul>
+        </nav>
+    </header>
+    
     <div class="quote-container">
-        <h1>Random Quote Generator</h1>
+        <h1>Quote Generator</h1>
         <div class="quote">
             <p id="quote-text">Click the button to get a quote</p>
             <p id="quote-author"></p>
@@ -15,6 +26,9 @@
         <button id="quote-button" onclick="getRandomQuote()">Get Quote</button>
     </div>
 
-    <script src="script.js"></script>
+    <footer>
+        <p>&copy; 2023 RandomWeb. All rights reserved.</p>
+      </footer>
+    <script src="RandomWeb_QuoteGenerator.js"></script>
 </body>
 </html>
