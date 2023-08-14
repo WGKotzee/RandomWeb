@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countdown Timer Website</title>
+    <link rel = "stylesheet" href = "styles.css">
+</head>
+<body>
+    <div class = "countdown-container">        
+        <h1>Countdown Timer</h1>
+        <h2>Enter the Date and Time of the upcoming event</h2>
+        <audio id="alarm-sound" src="alarm.mp3" preload="auto"></audio>
+        <label for = "input-time">Time:</label>
+            <input type="time" id="input-time"><br>
+
+        <label for = "input-date">Date:</label>
+            <input type="date" id = "input-date">
+            <img src="Images/R.gif" class="hourglass"><br>
+    <div<button id="dismiss-button" onclick="dismissAlarm()">Dismiss Alarm</button><br>></div>
+    <div id="message"></div>
+    <div id="countdown"></div>
+    </div>
+    
+    <footer>
+    </footer>
+    <script src = "script.js"></script>
+</body>
+</html>
