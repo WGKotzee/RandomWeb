@@ -105,49 +105,6 @@ body, h1, p {
   #dismiss-button:hover{
     background-color: #284bf8;
   }
-  
-  @media (max-width: 768px) {
-    h1 {
-      font-size: 60px; 
-    }
-  
-    .hourglass {
-      width: 250px; 
-    }
-  
-    #countdown {
-      font-size: 30px; 
-    }
-  
-    #message {
-      font-size: 30px; 
-    }
-  
-    #dismiss-button{
-    font-size: 12px;
-  
-    }
-
-  .quote-container{
-      margin: 100px;
-  }
-
-  .quote {
-      font-size: 18px;
-  }
-
-  #quote-button {
-      font-size: 12px;
-  }
-
-  #calculator {
-      max-width: 250px;
-  }
-
-  button {
-      font-size: 12px;
-  }
-  }
 
   /* RandomWeb Quote Generator */
 
@@ -222,4 +179,47 @@ button:hover{
 p {
   margin-top: 20px;
   font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 60px; 
+  }
+
+  .hourglass {
+    width: 250px; 
+  }
+
+  #countdown {
+    font-size: 30px; 
+  }
+
+  #message {
+    font-size: 30px; 
+  }
+
+  #dismiss-button{
+  font-size: 12px;
+
+  }
+
+.quote-container{
+    margin: 100px;
+}
+
+.quote {
+    font-size: 18px;
+}
+
+#quote-button {
+    font-size: 12px;
+}
+
+#calculator {
+    max-width: 250px;
+}
+
+button {
+    font-size: 12px;
+}
 }
