@@ -37,6 +37,7 @@ body, h1, p {
     color: white;
     font-weight: bold;
     transition: color 0.3s;
+    font-size: 18px;
   }
   
   nav a:hover {
@@ -184,7 +185,7 @@ p {
 
 @media (max-width: 768px) {
   h1 {
-    font-size: 60px; 
+    font-size: 36px; 
   }
 
   .hourglass {
@@ -192,7 +193,7 @@ p {
   }
 
   #countdown {
-    font-size: 24px; 
+    font-size: 30px; 
   }
 
   #message {
@@ -203,6 +204,10 @@ p {
   font-size: 12px;
 
   }
+
+  nav a {
+    font-size: 24px; 
+}
 
 .quote-container{
     margin: 20px;
