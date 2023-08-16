@@ -87,6 +87,13 @@ body, h1, p {
     width: 800px;
     border-radius: 20%;
   }
+
+  .duck {
+    display: block;
+    margin: 0 auto;
+    width: 800px;
+    border-radius: 20%;
+  }
   
   #countdown{
     display: block;
@@ -218,11 +225,19 @@ p {
     font-size: 30px; 
   }
 
+p {
+  font-size: 18px;
+}
+
   .hourglass {
     width: 250px; 
   }
 
-  .hourglass{
+  .bird{
+    width: 400px;
+  }
+
+  .duck {
     width: 400px;
   }
 
