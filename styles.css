@@ -2,7 +2,7 @@
 body, h1, p {
   margin: 0;
   padding: 0;
-  font-size: 1.5rem !important; /* Added 'px' for font size */
+  font-size: 24px; 
 }
 
 /* Basic styling */
@@ -206,7 +206,15 @@ p {
 @media only screen and (max-width: 768px) {
 
   body {
-    font-size: 0.625rem !important;
+    font-size: 16px !important;
+  }
+
+  h1 {
+    font-size: 36px !important;
+  }
+
+  p {
+    font-size: 18px !important;
   }
 
   nav ul {
