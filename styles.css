@@ -1,158 +1,138 @@
 /* Reset some default styles */
 body, h1, p {
-    margin: 0;
-    padding: 0;
-    font-size: 24;
-  }
-  
-  /* Basic styling */
-  body {
-    font-family: Arial, sans-serif;
-    text-align: center;
-    justify-content: space-between;
-    background-color: #ff9900;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    min-height: 100vh;
-  }
-  
-  header {
-    background-color: #333;
-    color: white;
-    padding: 10px 0;
-    width: 100%;
-    font-size: 18px;
-  }
-  
-  nav ul {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-  }
-  
-  nav li {
-    margin: 0 15px;
-  }
-  
-  nav a {
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
-    transition: color 0.3s;
-  }
-  
-  nav a:hover {
-    color: #ff9900;
-  }
-  
-  main {
-    text-align: center;
-    font-size: 18px;
-    padding: 20px;
-    flex: 1;
-  }
-  
-  footer {
-    text-align: center;
-    background-color: #333;
-    color: white;
-    padding: 10px 0;
-    width: 100%;
-  }
-  
-  /*CountdownTimer CSS*/
-  
-  h1 {
-    color: #333;
-    font-size: 50px;
-  
-  }
-  
-  .countdown-container{
-    margin: 0 auto;
-    align-self: center;
-    text-align: center;
-  }
-  
-  .hourglass{
-    display: block;
-    margin: 0 auto;
-    width: 400px;
-    border-radius: 50%;
-  }
-
-  .bird{
-    display: block;
-    margin: 0 auto;
-    width: 800px;
-    border-radius: 20%;
-  }
-
-  .duck {
-    display: block;
-    margin: 0 auto;
-    width: 900px;
-    border-radius: 20%;
-  }
-  
-  #countdown{
-    display: block;
-    margin: 0 auto;
-    font-size: 50px;
-    text-align: center;
-    color: #333;
-  }
-  #message{
-    display: block;
-    margin: 0 auto;
-    font-size: 50px;
-    color: hsl(0, 89%, 48%);
-  }
-  
-  #dismiss-button {
-    font-size: 18px;
-    padding: 10px 20px;
-    background-color: #333;
-    color: #fff;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-  
-  #dismiss-button:hover{
-    background-color: #284bf8;
-  }
-
-  /* RandomWeb Quote Generator */
-
-.quote-container{
-    margin: 0 auto;
+  margin: 0;
+  padding: 0;
+  font-size: 24px; /* Added 'px' for font size */
 }
 
-.quote{
-    margin-bottom: 20px;
-    font-size: 25px;
-    color: rgb(5, 8, 4);
+/* Basic styling */
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #ff9900;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+}
 
+header {
+  background-color: #333;
+  color: white;
+  padding: 10px 0;
+  width: 100%;
+  font-size: 18px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+nav li {
+  margin: 0 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #ff9900;
+}
+
+main {
+  text-align: center;
+  font-size: 18px;
+  padding: 20px;
+  flex: 1;
+}
+
+footer {
+  text-align: center;
+  background-color: #333;
+  color: white;
+  padding: 10px 0;
+  width: 100%;
+}
+
+/* CountdownTimer CSS */
+h1 {
+  color: #333;
+  font-size: 50px;
+}
+
+.countdown-container {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.hourglass,
+.bird,
+.duck {
+  display: block;
+  margin: 0 auto;
+  width: 100%; /* Adjusted width to be responsive */
+  max-width: 800px; /* Added max-width to prevent oversized images */
+  border-radius: 20%;
+}
+
+#countdown,
+#message {
+  display: block;
+  margin: 0 auto;
+  font-size: 50px;
+  color: #333;
+}
+
+#message {
+  color: hsl(0, 89%, 48%);
+}
+
+#dismiss-button {
+  font-size: 18px;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#dismiss-button:hover {
+  background-color: #284bf8;
+}
+
+/* RandomWeb Quote Generator */
+.quote-container {
+  margin: 0 auto;
+}
+
+.quote {
+  margin-bottom: 20px;
+  font-size: 25px;
+  color: rgb(5, 8, 4);
 }
 
 #quote-button {
-    font-size: 18px;
-    padding: 10px 20px;
-    background-color: #333;
-    color: #fff;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
+  font-size: 18px;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
 }
 
-#quote-button:hover{
-    background-color: #35e6e9;
+#quote-button:hover {
+  background-color: #35e6e9;
 }
 
 /* RandomWeb BMI Calculator */
-
 .calculator {
   max-width: 100%;
   margin: 0 auto;
@@ -191,7 +171,7 @@ button {
   cursor: pointer;
 }
 
-button:hover{
+button:hover {
   background-color: #13f8bf;
 }
 
@@ -222,73 +202,25 @@ p {
   font-weight: bold;
 }
 
-@media screen and (max-width: 768px) {
-  h1 {
-    font-size: 30px; 
+/* Media Query for Smartphone Screens */
+@media only screen and (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+    align-items: center;
   }
-
-p {
-  font-size: 10px;
-}
-
-header {
-  font-size: 12px;
-}
-
-  main{
-    font-size: 12px;
+  
+  nav li {
+    margin: 10px 0;
   }
-
-  .hourglass {
-    width: 250px; 
-  }
-
-  .bird{
-    width: 400px;
-  }
-
-  .duck {
-    width: 400px;
-  }
-
-  #countdown {
-    font-size: 30px; 
-  }
-
-  #message {
-    font-size: 24px; 
-  }
-
-  #dismiss-button{
-  font-size: 12px;
-
-  }
-
-  nav a {
-    font-size: 12px;
-  }
-
-  header nav a {
-    font-size: 12px; 
-}
-
-.quote-container{
-    margin: 20px;
-}
-
-.quote {
-    font-size: 16px;
-}
-
-#quote-button {
-    font-size: 12px;
-}
-
-.calculator {
+  
+  .calculator {
     max-width: 100%;
-}
-
-button {
-    font-size: 12px;
-}
+  }
+  
+  .hourglass,
+  .bird,
+  .duck {
+    width: 100%;
+    max-width: 100%;
+  }
 }
