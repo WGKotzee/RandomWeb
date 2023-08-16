@@ -80,6 +80,13 @@ body, h1, p {
     width: 400px;
     border-radius: 50%;
   }
+
+  .bird{
+    display: block;
+    margin: 0 auto;
+    width: 800px;
+    border-radius: 20%;
+  }
   
   #countdown{
     display: block;
@@ -213,6 +220,10 @@ p {
 
   .hourglass {
     width: 250px; 
+  }
+
+  .hourglass{
+    width: 400px;
   }
 
   #countdown {
