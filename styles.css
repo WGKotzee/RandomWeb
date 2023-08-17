@@ -244,6 +244,10 @@ p {
     display: none;
   }
 
+  .nav-mobile {
+    display: block;
+  }
+
   .mobile-menu-icon {
     font-size: 24px;
     cursor: pointer;
