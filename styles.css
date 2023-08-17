@@ -49,6 +49,11 @@ nav a {
   transition: color 0.3s;
 }
 
+nav a.active {
+  color: #ff9900;
+  font-weight: bold;
+}
+
 nav a:hover {
   color: #ff9900;
 }
@@ -259,6 +264,7 @@ p {
     font-size: 24px;
     cursor: pointer;
     margin-left: auto;
+    margin-right: 10px;
   }
 
   .nav-mobile-links {
