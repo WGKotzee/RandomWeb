@@ -278,7 +278,7 @@ p {
     text-decoration: none;
   }
 
-  .nav-mobile-links.show {
+  .nav-mobile.show .nav-mobile-links {
     display: block;
   }
 }
