@@ -264,6 +264,10 @@ p {
     padding: 10px;
   }
 
+  .nav-mobile.show .nav-mobile-links {
+    display: block;
+  }
+
   .nav-mobile-links ul {
     list-style: none;
     padding: 0;
@@ -276,9 +280,5 @@ p {
   .nav-mobile-links a {
     color: white;
     text-decoration: none;
-  }
-
-  .nav-mobile.show .nav-mobile-links {
-    display: block;
   }
 }
