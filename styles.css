@@ -24,6 +24,10 @@ header {
   font-size: 18px;
 }
 
+.nav-mobile {
+  display: none;
+}
+
 nav ul {
   list-style: none;
   display: flex;
@@ -63,7 +67,7 @@ footer {
 /* CountdownTimer CSS */
 h1 {
   color: #333;
-  font-size: 50px !important;
+  font-size: 50px;
 }
 
 .countdown-container {
@@ -76,8 +80,8 @@ h1 {
 .duck {
   display: block;
   margin: 0 auto;
-  width: 100%; /* Adjusted width to be responsive */
-  max-width: 800px; /* Added max-width to prevent oversized images */
+  width: 100%; 
+  max-width: 800px; 
   border-radius: 20%;
 }
 
@@ -204,36 +208,73 @@ p {
 
 /* Media Query for Smartphone Screens */
 @media only screen and (max-width: 768px) {
-
   body {
-    font-size: 16px !important;
+    font-size: 16px;
   }
 
   h1 {
-    font-size: 36px !important;
+    font-size: 36px;
   }
 
   p {
-    font-size: 18px !important;
+    font-size: 18px;
   }
 
   nav ul {
     flex-direction: column;
     align-items: center;
   }
-  
+
   nav li {
     margin: 10px 0;
   }
-  
+
   .calculator {
     max-width: 100%;
   }
-  
+
   .hourglass,
   .bird,
   .duck {
     width: 100%;
     max-width: 100%;
+  }
+
+  .nav-desktop {
+    display: none;
+  }
+
+  .mobile-menu-icon {
+    font-size: 24px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+
+  .nav-mobile-links {
+    display: none;
+    position: absolute;
+    top: 40px;
+    right: 10px;
+    background-color: #333;
+    border-radius: 5px;
+    padding: 10px;
+  }
+
+  .nav-mobile-links ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  .nav-mobile-links li {
+    margin-bottom: 5px;
+  }
+
+  .nav-mobile-links a {
+    color: white;
+    text-decoration: none;
+  }
+
+  .nav-mobile-links.show {
+    display: block;
   }
 }
