@@ -250,11 +250,11 @@ p {
 
   .nav-mobile {
     display: flex;
+    justify-content: flex-end;
   }
 
   .mobile-menu-icon {
-    display: flex !important;
-    justify-content: flex-end;
+    display: block !important;
     font-size: 24px;
     cursor: pointer;
     margin-right: 10px;
