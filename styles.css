@@ -264,7 +264,7 @@ p {
     padding: 10px;
   }
 
-  .nav-mobile.show .nav-mobile-links {
+  .nav-mobile-links.active {
     display: block;
   }
 
