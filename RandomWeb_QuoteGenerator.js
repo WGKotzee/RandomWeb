@@ -221,3 +221,8 @@ function getRandomQuote(){
     textElement.textContent = quotes[randomIndex].text;
     authorElement.textContent = "- " + quotes[randomIndex].author;
   }
+
+  document.querySelector('.mobile-menu-icon').addEventListener('click', function() {
+    document.querySelector('.nav-mobile-links').classList.toggle('active');
+  });
+  

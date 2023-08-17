@@ -28,3 +28,8 @@ function calculateBMI() {
 
     resultElement.textContent = `Your BMI is ${bmi}. You are ${category}.`;
   }
+
+  document.querySelector('.mobile-menu-icon').addEventListener('click', function() {
+    document.querySelector('.nav-mobile-links').classList.toggle('active');
+  });
+  

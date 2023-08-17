@@ -34,3 +34,8 @@ async function getWeather(city) {
     weatherInfo.textContent = 'An error occurred. Please try again later.';
   }
 }
+
+document.querySelector('.mobile-menu-icon').addEventListener('click', function() {
+    document.querySelector('.nav-mobile-links').classList.toggle('active');
+  });
+  
