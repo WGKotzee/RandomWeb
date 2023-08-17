@@ -28,6 +28,10 @@ header {
   display: none;
 }
 
+.mobile-menu-icon {
+  display: none;
+}
+
 nav ul {
   list-style: none;
   display: flex;
@@ -249,6 +253,7 @@ p {
   }
 
   .mobile-menu-icon {
+    display: block !important;
     font-size: 24px;
     cursor: pointer;
     margin-right: 10px;
