@@ -251,13 +251,14 @@ p {
   .nav-mobile {
     display: flex;
     justify-content: flex-end;
+    align-items: center;
   }
 
   .mobile-menu-icon {
     display: block !important;
     font-size: 24px;
     cursor: pointer;
-    margin-left: 10px;
+    margin-left: auto;
   }
 
   .nav-mobile-links {
