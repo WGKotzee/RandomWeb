@@ -253,6 +253,7 @@ p {
   }
 
   .mobile-menu-icon {
+    display: flex !important;
     justify-content: flex-end;
     font-size: 24px;
     cursor: pointer;
