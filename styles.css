@@ -257,6 +257,7 @@ p {
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    padding: 10px;
   }
 
   .mobile-menu-icon {
