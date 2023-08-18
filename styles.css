@@ -260,11 +260,9 @@ p {
   }
 
   .mobile-menu-icon {
-    display: block;
     font-size: 24px;
     cursor: pointer;
     margin-left: auto;
-    margin-right: 10px;
   }
 
   .nav-mobile-links {
