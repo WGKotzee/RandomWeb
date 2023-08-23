@@ -24,6 +24,12 @@ header {
   font-size: 18px;
 }
 
+canvas {
+  border:1px solid #d3d3d3;
+  background-color: #ffffff;
+  width: 50%;
+}
+
 .nav-mobile {
   display: none;
 }
