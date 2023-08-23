@@ -36,8 +36,11 @@
         </div>
     </header>
 
-    <main onload="startGame()">
+    <main>
         <h1>Game</h1>
+        <div id="game-container">
+            <canvas id="gameCanvas"></canvas>
+        </div>
         <button id="start-button" onclick="startGame()">Start</button>
         <button onmousedown="accelerate(-0.2)" onmouseup="accelerate(0.05)">ACCELERATE</button>
 <p>Use the ACCELERATE button to stay in the air</p>

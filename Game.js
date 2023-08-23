@@ -3,11 +3,17 @@ let myObstacles = [];
 let myScore;
 
 const startButton = document.getElementById('start-button');
+const accelerateButton = document.getElementById('accelerate-button');
+
+startButton.addEventListener('click', startGame);
+accelerateButton.addEventListener('mousedown', () => accelerate(-0.2));
+accelerateButton.addEventListener('mouseup', () => accelerate(0.05));
+
 function startGame() {
     myGamePiece = new component(30, 30, "red", 10, 120);
     myGamePiece.gravity = 0.05;
     myScore = new component("30px", "Consolas", "black", 280, 40, "text");
-    startButton.display = "none";
+    startButton.style.display = "none";
     myGameArea.start();
 }
 
