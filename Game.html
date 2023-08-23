@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="styles.css">
     <title>RandomWeb_Game</title>
 </head>
-<body onload="startGame()">
+<body>
     <header>
         <nav class="nav-desktop">
             <ul>
@@ -36,14 +36,15 @@
         </div>
     </header>
 
-    <main>
+    <main onload="startGame()">
         <h1>Game</h1>
+        <button onmousedown="accelerate(-0.2)" onmouseup="accelerate(0.05)">ACCELERATE</button>
+<p>Use the ACCELERATE button to stay in the air</p>
+<p>How long can you stay alive?</p>
     </main>
     <script src="Game.js"></script>
     <br>
-<button onmousedown="accelerate(-0.2)" onmouseup="accelerate(0.05)">ACCELERATE</button>
-<p>Use the ACCELERATE button to stay in the air</p>
-<p>How long can you stay alive?</p>
+
 <footer>
     <p>&copy; 2023 RandomWeb. All rights reserved.</p>
   </footer>
