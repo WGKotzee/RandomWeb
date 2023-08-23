@@ -5,8 +5,6 @@ let myScore;
 const startButton = document.getElementById('start-button');
 const accelerateButton = document.getElementById('accelerate-button');
 
-myGameArea.canvas = document.getElementById("gameCanvas");
-
 startButton.addEventListener('click', startGame);
 accelerateButton.addEventListener('mousedown', () => accelerate(-0.2));
 accelerateButton.addEventListener('mouseup', () => accelerate(0.05));
