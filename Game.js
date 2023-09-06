@@ -123,3 +123,7 @@ function everyinterval(n) {
 function accelerate(n) {
     myGamePiece.gravity = n;
 }
+
+document.querySelector('.mobile-menu-icon').addEventListener('click', function() {
+    document.querySelector('.nav-mobile-links').classList.toggle('active');
+  });
