@@ -9,7 +9,7 @@ body, h1, p {
 body {
   font-family: Arial, sans-serif;
   text-align: center;
-  background-image: url('low-poly-grid-haikei.svg');
+  background-image: url('Images/low-poly-grid-haikei.svg');
   background-size: cover;
   display: flex;
   flex-direction: column;
